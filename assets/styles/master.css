@@ -161,7 +161,17 @@ text-align: justify;
   clear: both;
 }
 
-
+/*member page*/
+.member{
+  margin:80px auto;
+  text-align:justify;
+}
+.member img{
+  width:300px;
+  height: auto;
+  float:left;
+  margin-right: 40px;
+}
 
 
 /*foooter*/
