@@ -6,6 +6,7 @@
     <title>Skypa</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/master.css">
 </head>
   <body>
     <header>
@@ -19,7 +20,7 @@
           <span></span>
         </button>
         <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav main-nav">
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
@@ -36,25 +37,30 @@
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
-          <ul class="navbar-nav">
-            <li><a href="#"><img src="assets/images/icon/ins.svg" alt="instagram" width="40px" height="20px"></a></li>
-            <li><a href="#"><img src="assets/images/icon/fb.svg" alt="facebook" width="40px" height="20px"></a></li>
-            <li><a href="#"><img src="assets/images/icon/yt.svg" alt="youtube" width="40px" height="20px"></a></li>
-            <li><a href="#"><img src="assets/images/icon/wh.svg" alt="whatsapp" width="40px" height="20px"></a></li>
-          </ul>
+          <div id="socials">
+            <ul class="navbar-nav">
+              <li><a href="#"><img src="assets/images/icon/ins.svg" alt="instagram" width="40px" height="20px"></a></li>
+              <li><a href="#"><img src="assets/images/icon/fb.svg" alt="facebook" width="40px" height="20px"></a></li>
+              <li><a href="#"><img src="assets/images/icon/yt.svg" alt="youtube" width="40px" height="20px"></a></li>
+              <li><a href="#"><img src="assets/images/icon/wh.svg" alt="whatsapp" width="40px" height="20px"></a></li>
+            </ul>
+          </div>
         </div>
-        <div class="social">
 
-        </div>
 
       </nav>
 
-      <div class="row container">
-        <h1>Title</h1>
+      <div class="container-fluid" id="title">
+        <h1>NEWS</h1>
+      </div>
+      <div class="container-fluid" id="path">
+        <h5>Home/News</h5>
       </div>
     </header>
     <div class="news_row">
-      <img src="" alt="" class="news_image">
+      <div class="image-box">
+        <img src="assets/images/news.png" alt="" class="news_image">
+      </div>
       <h2 class="news_title">AfroPop</h2>
       <div class="news_text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -62,7 +68,9 @@
       </div>
     </div>
     <div class="news_row">
-      <img src="" alt="" class="news_image">
+      <div class="image-box">
+        <img src="assets/images/news.png" alt="" class="news_image">
+      </div>
       <h2 class="news_title">AfroPop</h2>
       <div class="news_text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -70,7 +78,9 @@
       </div>
     </div>
     <div class="news_row">
-      <img src="" alt="" class="news_image">
+      <div class="image-box">
+        <img src="assets/images/news.png" alt="" class="news_image">
+      </div>
       <h2 class="news_title">AfroPop</h2>
       <div class="news_text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -78,15 +88,16 @@
       </div>
     </div>
 
-    <footer>
-      <div class="col">
+    <footer class="row">
+      <div class="col-3 foot1">
         <a href="index.html">Skypa</a>
       </div>
-      <div class="col">
+      <div class="col-3 foot2">
         <h3><a href="about.html">About</a></h3>
         <p>Lorem ipsum dolor officia deserunt mollit anim id est laborum.</p>
       </div>
-      <div class="col">
+      <div class="col-3 foot3">
+        <h2>Links</h2>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="beats.html">Beats</a></li>
@@ -95,12 +106,13 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-      <div class="<col>">
-        <ul>
-          <li><a href="#"><img src="" alt="instagram"></a></li>
-          <li><a href="#"><img src="" alt="facebook"></a></li>
-          <li><a href="#"><img src="" alt="youtube"></a></li>
-          <li><a href="#"><img src="" alt="whatsapp"></a></li>
+      <div class="col-3 foot4">
+        <h2>Social</h2>
+        <ul class="">
+          <li><a href="#"><img src="assets/images/icon/ins.svg" alt="instagram" width="40px" height="20px" class="foot-svg"></a></li>
+          <li><a href="#"><img src="assets/images/icon/fb.svg" alt="facebook" width="40px" height="20px" class="foot-svg"></a></li>
+          <li><a href="#"><img src="assets/images/icon/yt.svg" alt="youtube" width="40px" height="20px" class="foot-svg"></a></li>
+          <li><a href="#"><img src="assets/images/icon/wh.svg" alt="whatsapp" width="40px" height="20px" class="foot-svg"></a></li>
         </ul>
       </div>
     </footer>

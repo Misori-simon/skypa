@@ -1,0 +1,214 @@
+/*change  the allingment of header navigatipn on large screeen sizes*/
+#menu{
+  margin-left: 10%;
+  color: #ffffff;
+
+}
+.main-nav li{
+  margin-left: 50px;
+}
+.main-nav a:hover{
+  font-weight: bold;
+}
+.navbar-brand{
+  margin-left: 5%;
+  color: #ffffff;
+}
+#socials{
+  margin-left: 35%;
+  color: #ffffff;
+}
+/*for page title*/
+#title{
+  height: 120px; /*this has ro be reduced for small screeen sizes*/
+  background: purple;
+  padding: 40px 0px;
+  text-align: center;
+  color: white;
+}
+
+/*fir the page path*/
+#path{
+  height: 60px;
+  padding: 20px 150px;
+  background: lightgray;
+}
+
+/*beats page*/
+.beat_group{
+
+  clear: both;
+  margin:30px auto;
+  padding: 5px;
+  width: 1200px;
+  height: 350px;
+}
+.beat_group h2{
+  margin: 20px 1.5%;
+  font-size: 40px;
+}
+audio{
+  width: 100%;
+  background-color: pink;
+  display: block;
+}
+.track{
+  float: left;
+  background-image: url("../images/cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 220px;
+  width: 200px;
+  padding-top:160px;
+  margin: 0px 1.5%;
+}
+/*for the track page*/
+
+.track_info{
+
+}
+.track_name{
+
+}
+.track_description{
+  width: 1000px;
+  padding: 10px;
+  margin:5px;
+  text-align: justify;
+}
+.track_description button{
+  width:100px;
+  margin-right:10px;
+  margin-top:5px;
+  border-radius: 15px;
+  background:linear-gradient(pink, red);
+  border:2px inset red;
+}
+
+/*for the contact page*/
+.contact{
+  width:800px;
+  margin:0px auto;
+}
+.contact label{
+  width:100px;
+  font-family: verdana;
+
+}
+.contact label,input,textarea{
+  margin: 20px 0px;
+}
+.meassage-label{
+  float:left;
+}
+.submit{
+
+  color:white;
+  width: 100px;
+  padding: 5px;
+  margin-left:100px;
+  margin-top:20px;
+  border-radius: 15px;
+  background:linear-gradient(pink, red);
+  border:2px inset red;
+}
+/*news page*/
+.news_row{
+  width:70%;
+  margin:100px auto;
+
+  clear: both;
+}
+.image-box{
+  float: left;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-right: 50px;
+}
+.news_image{
+  height: 200px;
+  vertical-align: middle;
+}
+.news_title{
+
+}
+.news_text{
+width: 90%;
+text-align: justify;
+}
+
+
+/*Team page*/
+.team-row{
+  clear: both;
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.team_unit{
+  width: 250px;
+  height: 200px;
+  padding:0px;
+  margin:0px 5px;
+  float: left;
+}
+.team_unit img{
+  width: 250px;
+  height: auto;
+}
+.clear{
+  clear: both;
+}
+
+
+
+
+/*foooter*/
+footer{
+  background: #000000;
+  max-width: 100%;
+  color:#ffffff;
+  padding: 20px 0px;
+}
+
+.foot1{
+  text-align: center;
+  font-size: 40px;
+
+}
+.foot1 a{
+  text-decoration: none;
+}
+.foot1 a:hover{
+  text-decoration: none;
+}
+
+.foot2{
+
+}
+.foot3{
+  text-align: center;
+  padding: 0px;
+}
+.foot3 ul{
+  width: 100%;
+}
+.foot3 ul li{
+  margin-left:-40px;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+}
+.foot3 ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.foot4 ul li{
+  list-style-type: none;
+display: inline-block;
+ margin-right:5px;
+}
+.foot-svg{
+  fill:red;
+}
