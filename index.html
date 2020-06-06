@@ -6,6 +6,7 @@
     <title>Skypa</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/master.css">
 </head>
   <body>
     <header>
@@ -19,7 +20,7 @@
           <span></span>
         </button>
         <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav main-nav">
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
@@ -36,35 +37,35 @@
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
-          <ul class="navbar-nav">
-            <li><a href="#"><img src="assets/images/icon/ins.svg" alt="instagram" width="40px" height="20px"></a></li>
-            <li><a href="#"><img src="assets/images/icon/fb.svg" alt="facebook" width="40px" height="20px"></a></li>
-            <li><a href="#"><img src="assets/images/icon/yt.svg" alt="youtube" width="40px" height="20px"></a></li>
-            <li><a href="#"><img src="assets/images/icon/wh.svg" alt="whatsapp" width="40px" height="20px"></a></li>
-          </ul>
+          <div id="socials">
+            <ul class="navbar-nav">
+              <li><a href="#"><img src="assets/images/icon/ins.svg" alt="instagram" width="40px" height="20px"></a></li>
+              <li><a href="#"><img src="assets/images/icon/fb.svg" alt="facebook" width="40px" height="20px"></a></li>
+              <li><a href="#"><img src="assets/images/icon/yt.svg" alt="youtube" width="40px" height="20px"></a></li>
+              <li><a href="#"><img src="assets/images/icon/wh.svg" alt="whatsapp" width="40px" height="20px"></a></li>
+            </ul>
+          </div>
         </div>
-        <div class="social">
 
-        </div>
 
       </nav>
-
-      <div class="row container">
-        <h1>Title</h1>
-      </div>
     </header>
-    <div class="div_one">
+    <div class="div_home bg_two">
         <div class="home_top_left">
           <h2>SKYPA</h2>
           <p>Decouvrez les beats skypa et plongez dans un univers de sensation sonore</p>
-          <a href="#">beats</a><a href="#">contact</a>
+          <a href="#" class="home_btn">beats</a><a href="#" class="home_btn">contact</a>
         </div>
         <div class="home_top_right">
-
+          <img src="assets/images/news.png" alt="">
         </div>
     </div>
-    <div class="div_two">
-        <h3>About</h3>
+    <div class="div_home bg_one">
+      <h3 class="home_page_head">About</h3>
+      <div class="home_top_left">
+
+      </div>
+      <div class="home_top_right">
         <h2>Skypa Beats</h2>
         <p>Skypa vous offre des beats de toous les rythme music aux telsque</p>
         <ul>
@@ -74,25 +75,26 @@
           <li>Coupe Decale</li>
           <li>Reggae</li>
         </ul>
+      </div>
     </div>
     <div class="black_void">
 
     </div>
-    <div class="div_three">
-        <h3>Some Sevices</h3>
+    <div class="div_home bg_three">
+        <h3 class="home_page_head">Some Sevices</h3>
         <h2>Customisation</h2>
         <p>Vous avez besoin d'un rythme especial et d'un type d'instrument speciaux? Skypa est la pour vous</p>
 
     </div>
-    <div class="div_four">
-      <h2>Payement</h2>
+    <div class="div_home bg_two">
+      <h2 class="home_page_head">Payement</h2>
       <p>Skypa.com integre plusieurs systemes de payement enligne pour vous permettre d'acquerir vos beats en toute securite</p>
     </div>
     <div class="black_void">
       <!-- black and void of content-->
     </div>
-    <div class="div_five">
-      <h2>More Information</h2>
+    <div class="div_home bg_one">
+      <h2 class="home_page_head">More Information</h2>
       <div class="info_call">
         <img src="" alt="">
         <p>+237 699 999 999</p>
@@ -111,15 +113,16 @@
 
 
 
-    <footer>
-      <div class="col">
+    <footer class="row">
+      <div class="col-3 foot1">
         <a href="index.html">Skypa</a>
       </div>
-      <div class="col">
+      <div class="col-3 foot2">
         <h3><a href="about.html">About</a></h3>
         <p>Lorem ipsum dolor officia deserunt mollit anim id est laborum.</p>
       </div>
-      <div class="col">
+      <div class="col-3 foot3">
+        <h2>Links</h2>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="beats.html">Beats</a></li>
@@ -128,12 +131,13 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-      <div class="<col>">
-        <ul>
-          <li><a href="#"><img src="" alt="instagram"></a></li>
-          <li><a href="#"><img src="" alt="facebook"></a></li>
-          <li><a href="#"><img src="" alt="youtube"></a></li>
-          <li><a href="#"><img src="" alt="whatsapp"></a></li>
+      <div class="col-3 foot4">
+        <h2>Social</h2>
+        <ul class="">
+          <li><a href="#"><img src="assets/images/icon/ins.svg" alt="instagram" width="40px" height="20px" class="foot-svg"></a></li>
+          <li><a href="#"><img src="assets/images/icon/fb.svg" alt="facebook" width="40px" height="20px" class="foot-svg"></a></li>
+          <li><a href="#"><img src="assets/images/icon/yt.svg" alt="youtube" width="40px" height="20px" class="foot-svg"></a></li>
+          <li><a href="#"><img src="assets/images/icon/wh.svg" alt="whatsapp" width="40px" height="20px" class="foot-svg"></a></li>
         </ul>
       </div>
     </footer>

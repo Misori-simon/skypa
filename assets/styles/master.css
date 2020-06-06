@@ -18,6 +18,52 @@
   margin-left: 35%;
   color: #ffffff;
 }
+/*For the index page*/
+.div_home{
+  width:100%;
+  height: 600px;
+  padding: 100px 0px;
+}
+.home_top_left{
+  width: 36%;
+  margin: 10px 7%;
+  float: left;
+}
+.home_top_right{
+  width: 36%;
+  margin: 10px 7%;
+  float: left;
+}
+.home_top_right img{
+  width: 100%;
+  height: auto;
+}
+.home_page_head{
+  text-align: center;
+  margin:-50px 0px 0px;
+}
+.black_void{
+  width: 100%;
+  height: 400px;
+  background: #000000;
+}
+.bg_one{
+  background: purple;
+}
+.bg_two{
+  background: gray;
+}
+.bg_three{
+  background: brown;
+}
+.home_btn{
+  width:100px;
+  padding: 10px;
+  background: red;
+  border-radius: 50px;
+  margin: 10px;
+  text-decoration: none;
+}
 /*for page title*/
 #title{
   height: 120px; /*this has ro be reduced for small screeen sizes*/
@@ -177,7 +223,8 @@ text-align: justify;
 /*foooter*/
 footer{
   background: #000000;
-  max-width: 100%;
+  margin: 0px; !important
+  width: 100%;
   color:#ffffff;
   padding: 20px 0px;
 }
